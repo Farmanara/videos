@@ -21,6 +21,7 @@ class SearchBar extends React.Component {
             <label>Video Search</label>
           </div>
           <input
+            placeholder="Type in what you're looking for and hit Enter!"
             type="text"
             value={this.state.term}
             onChange={this.onInputChange}
