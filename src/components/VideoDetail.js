@@ -10,6 +10,7 @@ const VideoDetail = ({ video }) => {
           width="120"
           height="240"
           src={`https://www.youtube.com/embed/${video.id.videoId}`}
+          title={video.snippet.title}
         ></iframe>
       </div>
       <div className="segment ui">

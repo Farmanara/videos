@@ -2,7 +2,6 @@ import React from "react";
 import SearchBar from "./SearchBar";
 import youtube from "../APIs/youtube";
 import VideoList from "./VideoList";
-import VideoItem from "./VideoItem";
 import VideoDetail from "./VideoDetail";
 
 class App extends React.Component {
